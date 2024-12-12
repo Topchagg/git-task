@@ -8,3 +8,6 @@ class Calc():
         if b == 0:
             raise Exception("You cannot divide by 0")
         return a/b
+    
+    def plus(self,a,b):
+        return a+b
